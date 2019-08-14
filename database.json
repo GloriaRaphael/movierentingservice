@@ -1,0 +1,104 @@
+{
+ "users": [
+  {
+   "username": "user1",
+   "password": "123456",
+   "email": "user@example.com",
+   "rentedMovies": [
+    "Marriage Pranks",
+    "Crawl",
+    "blash"
+   ],
+   "wallet": 10800
+  },
+  {
+   "username": "user2",
+   "password": "678900",
+   "email": "user2@example.com",
+   "rentedMovies": [
+    "Marriage Pranks",
+    "blash"
+   ],
+   "wallet": 3300
+  },
+  {
+   "username": "",
+   "password": "",
+   "email": "",
+   "rentedMovies": [],
+   "wallet": 5000
+  },
+  {
+   "username": "Gloria",
+   "password": "laura",
+   "email": "gloria@example.com",
+   "rentedMovies": [],
+   "wallet": 20000
+  },
+  {
+   "username": "boo boo",
+   "password": "123",
+   "email": "boo@example.com",
+   "rentedMovies": [
+    "Marriage Pranks"
+   ],
+   "wallet": 18300
+  }
+ ],
+ "admin": [
+  {
+   "username": "theadmin",
+   "password": "123456"
+  },
+  {
+   "username": "theadmin2",
+   "password": "678900"
+  }
+ ],
+ "movies": [
+  {
+   "title": "Marriage Pranks",
+   "genre": [
+    "Romance",
+    "Drama"
+   ],
+   "synopsis": "What happens to a young marriage where a wife decided to be playing pranks on her husband, what would be the fate of the marriage?",
+   "duration": "90 mins",
+   "size": "500mb",
+   "price": 1700
+  },
+  {
+   "title": "Crawl",
+   "genre": [
+    "Drama",
+    "Thriller"
+   ],
+   "synopsis": "When a massive hurricane hits her Florida town, young Haley ignores the evacuation orders to search for her missing father, Dave. After finding him gravely injured in their family home, the two of them become trapped by the rapidly encroaching floodwaters. With the storm strengthening, Haley and Dave discover an even greater threat than the rising water level -- a relentless attack from a pack of gigantic alligators.",
+   "duration": "87 mins",
+   "size": "762mb",
+   "price": 2000
+  },
+  {
+   "title": "Spider-Man: Far From Home",
+   "genre": [
+    "Fantasy",
+    "Science Fiction"
+   ],
+   "synopsis": "Following the events of Avengers: Endgame, Spider-Man must step up to take on new threats in a world that has changed forever.",
+   "duration": "90 mins",
+   "size": "800mb",
+   "price": 1750
+  },
+  {
+   "title": "The Lion King",
+   "genre": [
+    "Drama",
+    "Adventure"
+   ],
+   "synopsis": "When a massive hurricane hits her Florida town, young Haley ignores the evacuation orders to search for her missing father, Dave. After finding him gravely injured in their family home, the two of them become trapped by the rapidly encroaching floodwaters. With the storm strengthening, Haley and Dave discover an even greater threat than the rising water level -- a relentless attack from a pack of gigantic alligators.",
+   "duration": "87 mins",
+   "size": "762mb",
+   "price": 2000
+  }
+ ]
+}

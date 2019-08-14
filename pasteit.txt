@@ -1,0 +1,200 @@
+Movies.prototype.rentMovie = function() {
+  return `Title: ${this.title} \n
+          Genre: ${this.genre} \n
+          Synopsis: \n
+          ${this.synopsis} \n
+          Duration: ${this.duration} \n
+          Size: ${this.size} \n
+          Ratings: ${this.ratings} stars
+    `;
+};
+
+class Admin {
+  constructor() {}
+  viewUsers()
+  addMovies() {}
+  removeMovie() {}
+  disableUser() {}
+}
+function moviename() {
+  console.clear();
+  netchick
+    .prompt([
+      {
+        type: "input",
+        name: "title",
+        message: "Enter your Title: ",
+      },
+    ])
+    .then(answer => {
+      return moviegenre();
+    });
+}
+
+function moviegenre() {
+  console.clear();
+  netchick
+    .prompt([
+      {
+        type: "input",
+        name: "genre",
+        message: "Enter your Genre: ",
+      },
+    ])
+    .then(answer => {
+      return moviesynopsis();
+    });
+}
+
+function moviesynopsis() {
+  console.clear();
+  netchick
+    .prompt([
+      {
+        type: "input",
+        name: "synopsis",
+        message: "Enter your Synopsis: ",
+      },
+    ])
+    .then(answer => {
+      return movieduration();
+    });
+}
+
+function movieduration() {
+  console.clear();
+  netchick
+    .prompt([
+      {
+        type: "input",
+        name: "duration",
+        message: "Enter your Duration: ",
+      },
+    ])
+    .then(answer => {
+      return moviesize();
+    });
+}
+
+function moviesize() {
+  console.clear();
+  netchick
+    .prompt([
+      {
+        type: "input",
+        name: "size",
+        message: "Enter your Size: ",
+      },
+    ])
+    .then(answer => {
+      console.log("Thats all for now");
+    });
+}
+
+
+ removeMovie(movie)
+database.users.rentedMovies.forEach(rented => {
+              
+            }
+ 
+        // console.log(movieObj);
+        // database.movies.push(movieObj);
+        // updateJsonfile();
+        // console.log("Congrats Movie updated");
+
+// database.users.forEach(user => {
+//   if (movie.title == user.rentedMovies) {
+//     console.log("Sorry movie rented out!");
+//   } else {
+//     confirmAction();
+//   }
+// });
+
+// console.log(
+        //   user.rentedMovies,
+        //   user.rentedMovies.indexOf(answer.movieId)
+        // );
+{
+   "title": "blash",
+   "genre": [
+    "mash"
+   ],
+   "synopsis": "mush mush mush pash tamp ram loo boo boo",
+   "duration": "60mins",
+   "size": "200",
+   "price": 500
+  },
+  {
+            "title": "Dashing beauty",
+            "genre": [
+                "mash"
+            ],
+            "synopsis": "ufydchvjbhyutycfh jhkjniubyvticyrf hv,bj hivtic7rdychvj bhvutcrdgc",
+            "duration": "110mins",
+            "size": "2000",
+            "price": 500
+        }
+
+  "movies": [
+  {
+   "title": "Marriage Pranks",
+   "genre": [
+    "Romance",
+    "Drama"
+   ],
+   "synopsis": "What happens to a young marriage where a wife decided to be playing pranks on her husband, what would be the fate of the marriage?",
+   "duration": "90 mins",
+   "size": "500mb",
+   "price": 1700
+  },
+  {
+   "title": "Crawl",
+   "genre": [
+    "Drama",
+    "Thriller"
+   ],
+   "synopsis": "When a massive hurricane hits her Florida town, young Haley ignores the evacuation orders to search for her missing father, Dave. After finding him gravely injured in their family home, the two of them become trapped by the rapidly encroaching floodwaters. With the storm strengthening, Haley and Dave discover an even greater threat than the rising water level -- a relentless attack from a pack of gigantic alligators.",
+   "duration": "87 mins",
+   "size": "762mb",
+   "price": 2000
+  },
+  {
+   "title": "Spider-Man: Far From Home",
+   "genre": [
+    "Fantasy",
+    "Science Fiction"
+   ],
+   "synopsis": "Following the events of Avengers: Endgame, Spider-Man must step up to take on new threats in a world that has changed forever.",
+   "duration": "90 mins",
+   "size": "800mb",
+   "price": 1750
+  },
+  {
+   "title": "The Lion King",
+   "genre": [
+    "Drama",
+    "Adventure"
+   ],
+   "synopsis": "When a massive hurricane hits her Florida town, young Haley ignores the evacuation orders to search for her missing father, Dave. After finding him gravely injured in their family home, the two of them become trapped by the rapidly encroaching floodwaters. With the storm strengthening, Haley and Dave discover an even greater threat than the rising water level -- a relentless attack from a pack of gigantic alligators.",
+   "duration": "87 mins",
+   "size": "762mb",
+   "price": 2000
+  }
+  // index = user.rentedMovies.indexOf(movieId);
+          // console.log(index);
+          // if (movieId == user.rentedMovies) {
+          //   console.log(`${movieId}: Movie unavailable at the moment (rented)`);
+          // } else {
+          //   database.movies.splice(movieId, 1);
+          //   // database.users.rentedMovies.splice(movieId, 1)
+          //   updateJsonfile();
+          //   console.log(`${movieId} successfully removed!!!`);
+          // }
+
+           index = user.rentedMovies.indexOf(movieId);
+          console.log(index);
+          // if (movieId == user.rentMovie[index]) {
+          //   if (movieId == movie.title) {
+          //     console.log("We are here!");
+          //   }
+          // }
